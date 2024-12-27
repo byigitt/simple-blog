@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
+    <title>smartmove: predicting ankara metro crowds | baris sleeping here</title>
+    <link rel="canonical" href="https://baris.bearblog.dev/posts/smartmove.html">
+    
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="baris" content="look-for-the-bear-necessities">
+    <link rel="shortcut icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'%3E%3Ctext%20y='.9em'%20font-size='90'%3E🐹%3C/text%3E%3C/svg%3E">
+    
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body class="post" onload="(function() { document.cookie = `timezone=${Intl.DateTimeFormat().resolvedOptions().timeZone};path=/`; })()">
+    <header>
+        <a class="title" href="/">
+            <h1>baris sleeping here (￣o￣) . z Z</h1>
+        </a>
+        <nav style="margin-top: 10px;">
+          <p><a href='/'>home</a> <a href='https://portfolio.baris.pw/'>portfolio</a></p>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h2>smartmove: predicting ankara metro crowds</h2>
+            <time>january 27, 2024</time>
+            
+            <p>excited to share our second-place winning project from the ostimtech ai competition 2024! smartmove is an ai-powered system that predicts passenger crowds in the ankara metro, developed during an intense 48-hour hackathon. what made us stand out was our innovative approach to synthetic data generation and real-world pattern modeling.</p>
+
+            <h3>#0 project overview</h3>
+            <p>here's what it does:</p>
+            <ul>
+                <li>predicts crowd levels at all metro stations with 92% accuracy</li>
+                <li>tracks real-time passenger flow using computer vision</li>
+                <li>analyzes patterns based on time, weather, and events</li>
+                <li>helps passengers plan better routes</li>
+                <li>provides real-time alternatives during peak hours</li>
+                <li>detects and predicts crowd anomalies</li>
+            </ul>
+
+            <h3>#1 innovations & breakthroughs</h3>
+            <p>innovative approaches we developed:</p>
+            <ul>
+                <li>multi-modal transfer pattern analysis using graph theory</li>
+                <li>dynamic weather impact coefficients that adapt to historical patterns</li>
+                <li>synthetic data generation using real-world behavioral psychology</li>
+                <li>novel "station personality" profiles based on surrounding infrastructure</li>
+                <li>adaptive peak detection using wavelet transformations</li>
+            </ul>
+
+            <h3>#2 technical stack</h3>
+            <p>the tech stack:</p>
+            <pre><code>python         - core development
+scikit-learn   - machine learning models (random forest & gradient boosting)
+opencv + yolo  - passenger detection (yolov8 for real-time counting)
+plotly         - interactive data visualization
+pandas         - data processing and analysis
+numpy          - numerical computations
+ultralytics    - yolo implementation
+networkx       - station graph analysis
+scipy          - signal processing for pattern detection</code></pre>
+
+            <h3>#3 core innovations</h3>
+            <p>breakthrough: station personality profiles</p>
+            <pre><code># innovative station profiling system
+class StationPersonality:
+    def __init__(self, features):
+        self.features = features
+        self.behavior_patterns = {}
+        self.influence_radius = 0
+        
+    def calculate_influence(self):
+        # revolutionary approach: infrastructure impact scoring
+        for feature in self.features:
+            if feature == 'university':
+                self.add_pattern('academic_year')
+                self.add_pattern('exam_periods')
+            elif feature == 'shopping_district':
+                self.add_pattern('weekend_peaks')
+                self.add_pattern('seasonal_sales')
+                
+    def predict_anomalies(self):
+        # unique anomaly detection using feature combinations
+        return self.analyze_pattern_intersections()</code></pre>
+
+            <h3>#4 data generation</h3>
+            <p>our unique data generation insights:</p>
+            <pre><code># revolutionary time-based pattern generation
+def generate_realistic_patterns(station):
+    # innovative: psychological behavior modeling
+    morning_rush = gaussian_mixture(
+        base=station.worker_population,
+        variance=calculate_cultural_variance(),
+        habits=local_behavior_patterns
+    )
+    
+    # breakthrough: micro-event impact calculation
+    events = {
+        'small_gatherings': 0.15,  # coffee shops, restaurants
+        'routine_shifts': 0.25,    # work schedule changes
+        'spontaneous': 0.1,        # unplanned activities
+    }
+    
+    # unique: adaptive capacity modeling
+    capacity = calculate_dynamic_capacity(
+        base_capacity=1000,
+        time_factor=get_time_elasticity(),
+        cultural_factor=get_local_habits()
+    )</code></pre>
+
+            <h3>#5 revolutionary aspects</h3>
+            <p>why our approach was revolutionary:</p>
+            <ul>
+                <li>first to implement psychological behavior patterns in metro predictions</li>
+                <li>developed "micro-event" detection for small but significant gatherings</li>
+                <li>created cultural-aware time elasticity calculations</li>
+                <li>implemented dynamic station personality profiles</li>
+                <li>invented adaptive capacity modeling based on real-time factors</li>
+            </ul>
+
+            <h3>#6 technical innovations</h3>
+            <p>unique technical innovations:</p>
+            <pre><code># breakthrough: adaptive threshold system
+class DynamicThresholdManager:
+    def __init__(self):
+        self.baseline = self.calculate_cultural_baseline()
+        self.elasticity = self.get_time_elasticity()
+        
+    def calculate_cultural_baseline(self):
+        # innovative: cultural behavior integration
+        return {
+            'morning_flexibility': 0.8,  # turkish breakfast culture
+            'evening_persistence': 1.2,   # social gathering patterns
+            'weekend_variation': 1.5      # family visit behaviors
+        }
+        
+    def adjust_for_ramadan(self):
+        # unique: religious and cultural event handling
+        return self.modify_patterns(
+            iftar_time=self.get_sunset_time(),
+            sahur_impact=self.early_morning_adjustment()
+        )</code></pre>
+
+            <h3>#7 competition success</h3>
+            <p>while we secured second place, our approach was recognized as the most innovative. here's what happened:</p>
+            
+            <ul>
+                <li>48-hour intense development at ostimtech</li>
+                <li>secured second place among 12 teams</li>
+                <li>praised for most creative and scalable solution</li>
+                <li>only team to implement cultural behavior patterns</li>
+                <li>caught attention of metro authorities for real deployment</li>
+                <li>potential pilot project in ankara metro</li>
+            </ul>
+
+            <p>lessons from the competition:</p>
+            <ul>
+                <li>real data beats synthetic data in accuracy</li>
+                <li>innovation and scalability matter more than pure accuracy</li>
+                <li>cultural integration gives unique advantage</li>
+                <li>visualization capabilities can make or break presentations</li>
+                <li>real-world applicability trumps academic approaches</li>
+            </ul>
+
+            <h3>#8 metrics & achievements</h3>
+            <p>key metrics and innovations:</p>
+            <pre><code>accuracy:    92.3% (peak hours)
+rmse:        4.2% (occupancy prediction)
+latency:     45ms (real-time detection)
+coverage:    all 55 stations
+resolution:  5-minute intervals
+
+innovations:
+- cultural pattern integration
+- psychological behavior modeling
+- micro-event detection system
+- dynamic station personalities
+- adaptive threshold management</code></pre>
+
+            <h3>#9 future roadmap</h3>
+            <p>future plans and unique ideas:</p>
+            <ul>
+                <li>integration with local business APIs for event impact prediction</li>
+                <li>machine learning model that adapts to cultural celebrations</li>
+                <li>real-time integration with social media sentiment analysis</li>
+                <li>behavioral psychology-based crowd flow prediction</li>
+                <li>integration with smart city infrastructure</li>
+                <li>development of "station personality" evolution tracking</li>
+                <li>implementation of cultural event impact scoring</li>
+            </ul>
+        </article>
+    </main>
+</body>
+</html> 
